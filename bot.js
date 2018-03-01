@@ -4,7 +4,7 @@ const client = new discord.Client();
 var prefix = '!';
 
 client.on("ready", () => {
-  client.user.setActivity(` | !Info`);
+  client.user.setGame(` | !Info`);
   console.log(`Bot version 1.22 by Ort =)`);
 });
 
