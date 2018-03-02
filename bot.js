@@ -37,7 +37,7 @@ client.on('message', (message) => {
 	    			var Role=message.guild.roles.find('name','Arma')
 	    			GiveRole(Role,message)
 	    		}else if (Channel.toLowerCase()==='csgo'){
-	    			var Role=message.guild.roles.find('name','CS;GO')
+	    			var Role=message.guild.roles.find('name','CS:GO')
 	    			GiveRole(Role,message)
 	    		}else if (Channel.toLowerCase()==='rs6'){
 	    			var Role=message.guild.roles.find('name','Rainbow Six Seige')
